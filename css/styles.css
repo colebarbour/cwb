@@ -66,7 +66,7 @@ body {
   line-height: 1.5;
   color: #1b1f23;
   text-align: left;
-  background-color: #595b60;
+  background-color: #25272c;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -159,12 +159,12 @@ sup {
 }
 
 a {
-  color: #585d61;
+  color: #c8d0d7;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #242427;
+  color: #88c2f5;
   text-decoration: underline;
 }
 
@@ -368,11 +368,12 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 h2, .h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  text-align: center;
 }
 
 h3, .h3 {
@@ -10001,6 +10002,7 @@ h6 {
 
 h1 {
   line-height: 1;
+  text-align: center;
 }
 
 p.lead {
