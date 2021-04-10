@@ -10108,12 +10108,12 @@ section.resume-section {
   padding-bottom: 5rem;
   max-width: 75rem;
 }
-section.resume-section.resume-section-about{
+section.resume-section-about{
   display: flex;
   align-items: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 3rem;
   padding-bottom: 5rem;
   max-width: 75rem;
 }
