@@ -5825,7 +5825,7 @@ a.close.disabled {
   width: 100%;
   overflow: hidden;
   /* temporary until I find the auto-resize, to prevent larger pics from overflowing */
-  max-height: 400px !important;
+  max-height: 360px !important;
 }
 .carousel-inner::after {
   display: block;
