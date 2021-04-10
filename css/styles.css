@@ -10016,6 +10016,7 @@ h1 {
 p.lead {
   font-size: 1.25rem;
   font-weight: 400;
+  text-align: center;
 }
 
 .subheading {
