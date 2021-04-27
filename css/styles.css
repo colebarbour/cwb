@@ -58,11 +58,19 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
+/* animation effects */
+
 .slidein-right {
   animation: 2s slidein-right;
 }
 .slidein-left {
   animation: 2s slidein-left;
+}
+.slidein-top {
+  animation: 2s slidein-top;
+}
+.slidein-bottom {
+  animation: 2s slidein-bottom;
 }
 @keyframes slidein-left {
   0% {
@@ -72,7 +80,6 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
       transform: translateX(0);
   }
 }
-
 @keyframes slidein-right {
   0% {
       transform: translateX(100%);
@@ -81,7 +88,22 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
       transform: translateX(0);
   }
 }
-
+@keyframes slidein-top {
+  0% {
+      transform: translateY(100%);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+@keyframes slidein-bottom {
+  0% {
+      transform: translateY(100%);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
 
 
 body {
@@ -609,6 +631,7 @@ pre code {
   flex-wrap: wrap;
   margin-right: -0.75rem;
   margin-left: -0.75rem;
+  margin-bottom: 1rem;
 }
 
 .no-gutters {
